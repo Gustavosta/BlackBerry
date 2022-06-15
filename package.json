@@ -1,0 +1,59 @@
+{
+  "name": "blackberry-theme",
+  "version": "1.0.0",
+  "author": "Gustavo Santana <sowlfie@gmail.com>",
+  "displayName": "Blackberry Theme",
+  "description": "A beautiful theme for VSCode",
+  "publisher": "Gustavosta",
+  "license": "MIT",
+  "icon": "logo.png",
+  "scripts": {
+    "build": "npm run build:dark && npm run build:bright",
+    "build:dark": "node src/dark/build",
+    "build:bright": "node src/bright/build"
+  },
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "galleryBanner": {
+    "color": "#FCEAE5",
+    "theme": "light"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "horizon",
+    "warm"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "BlackBerry",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blackberry.json"
+      },
+      {
+        "label": "BlackBerry Bright",
+        "uiTheme": "vs",
+        "path": "./themes/blackberry-bright.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "mustache": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gustavosta/BlackBerry"
+  },
+  "bugs": {
+    "url": "https://github.com/Gustavosta/BlackBerry/issues"
+  }
+}
+
+
+
+

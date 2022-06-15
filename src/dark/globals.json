@@ -1,0 +1,54 @@
+{
+  "syntax": {
+    "lavender": "#c16dbc",
+    "cranberry": "#ef5a82",
+    "turquoise": "#2db5c7",
+    "apricot": "#ff917c",
+    "rosebud": "#fbb7a3",
+    "tacao": "#ffc77d",
+    "gray": "#c3b9be"
+  },
+  "ui": {
+    "shadow": "#0d010a",
+    "border": "#140c16",
+    "background": "#0b0a10",
+    "backgroundAlt": "#201d2f",
+    "accent": "#393451",
+    "accentAlt": "#b1a5b1",
+    "secondaryAccent": "#e6839f",
+    "secondaryAccentAlt": "#da4a72",
+    "tertiaryAccent": "#ffa884",
+    "positive": "#00f490",
+    "negative": "#ff3962",
+    "warning": "#ffe295",
+    "modified": "#2cb8ca",
+    "lightText": "#c2c1c2",
+    "darkText": "#0e0410"
+  },
+  "ansi": {
+    "normal": {
+      "blue": "#00cbde",
+      "cyan": "#55f8ff",
+      "green": "#4fda7f",
+      "magenta": "#e155ae",
+      "red": "#ea485e",
+      "yellow": "#ffcf7c"
+    },
+    "bright": {
+      "blue": "#0aeaff",
+      "cyan": "#78f9ff",
+      "green": "#79e39d",
+      "magenta": "#e982c4",
+      "red": "#f07f8e",
+      "yellow": "#ffdb9c"
+    }
+  },
+  "alpha": {
+    "high": "E6",
+    "highMed": "B3",
+    "med": "80",
+    "medLow": "4D",
+    "low": "1A",
+    "none": "00"
+  }
+}
