@@ -28,7 +28,7 @@ A beautiful clean theme for VSCode [Forked from Horizon theme](https://github.co
 </div>
 
 <div align="center">
-<img src="demo.png", width="500">
+<img src="demo.png", width="1000">
 </div>
 
 
